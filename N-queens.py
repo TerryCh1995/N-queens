@@ -33,5 +33,5 @@ def prettyprint(solution):
 
 if __name__ == "__main__":
     start_time = time.time()
-    prettyprint(random.choice(list(queens(11))))
+    prettyprint(random.choice(list(queens(13))))
     print(str(time.time()-start_time))
